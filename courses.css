@@ -1,0 +1,109 @@
+/* Import Google Font */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+
+.courses {
+    margin-top: 8rem;
+}
+
+/* Style tab links */
+.tablink_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.tablink {
+    background-color: #fff;
+    color: #2b3264;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin: 1rem 0.5rem;
+    font-size: 17px;
+    font-weight: 700;
+    width: 20%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(6, 8, 114, 0.578);
+}
+
+.tablink:hover {
+    background-color: #2b3264;
+    color: #fff;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(6, 8, 114, 0.412);
+}
+
+.tabcontent_desc{
+    width: 90%;
+    color: #7d7d7d;
+    text-align: justify;
+    text-indent: 10%;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+/* inner_tabcontent Grid */
+.inner_tabcontent{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    gap: 15px;
+    padding: 25px;
+}
+@media (min-width: 768px) {
+    .inner_tabcontent {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+/* Video Styling */
+.video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+#Home {
+    background-color: #fff;
+}
+
+#News {
+    background-color: #fff;
+}
+
+#Contact {
+    background-color: #fff;
+}
+
+#About {
+    background-color: #fff;
+}

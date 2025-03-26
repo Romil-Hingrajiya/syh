@@ -1,3 +1,15 @@
+// img shadow click
+document.querySelectorAll('.shadow_click').forEach(img => {
+  img.addEventListener('click', function() {
+      this.classList.add('bounce'); // Add bounce effect
+      setTimeout(() => {
+          window.location.href = "courses.html"; // Redirect after animation
+      }, 400); // Slight delay for animation effect
+  });
+});
+
+
+
 // header - navbar
 const navEl = document.querySelector(".nav");
 const hamburgerEl = document.querySelector(".hamburger");
